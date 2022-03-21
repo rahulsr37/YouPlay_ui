@@ -1,13 +1,97 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+#root {
+  color: #fff;
+  background-color: #0a0a0a;
+}
+
+li {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background-color: #000000;
+}
+
+.nav_links {
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  color: #0f7fff;
+}
+
+.mixed-catalogue {
+  color: #0f7fff;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.catalogue-card {
+  width: 332px;
+  height: 186px;
+}
+
+.catalogue-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.1s ease-out 0s;
+}
+
+.catalogue-card img:hover {
+  transform: scale(1.1);
+}
+
+.carousel {
+  height: 75vh;
+}
+
+.accountProfile {
+  margin-left: 10px;
+}
+
+.ndfHFb-c4YZDc-GSQQnc-LgbsSe{
+  display: none;
+}
+
+.content_info{
+  margin-top: 5px;
+  padding-left: 25px;
+}
+
+.title_and_year{
+  display: flex;
+}
+
+.title_and_year p {
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 20px;
 }

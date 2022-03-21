@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Arrival",
+    "imgsrc": "1.jpg",
+    "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1xoaaUFMpCLRyS-cBki7RqyJm11X3wlf5/preview",
+    "plot": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    "year": "2016"
+  },
+  {
+    "title": "Dunkirk",
+    "imgsrc": "2.jpg",
+    "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/18mYKODNIZfVMki-s8X9d0yOXbwWCopEf/preview",
+    "plot": "Allied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",
+    "year": "2017"
+  },
+  {
+    "title": "Dune",
+    "imgsrc": "3.jpg",
+    "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1skWGq9fSd27VNRQmHSlMowd45C355FSH/preview",
+    "plot": "Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+    "year": "2021"
+  },
+  {
+    "title": "Free Guy",
+    "imgsrc": "4.jpg",
+    "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1Uhl-jUsMlXkF0hpPGPc4wH2UmvSJh_dk/preview",
+    "plot": "A bank teller discovers that he's actually an NPC inside a brutal, open world video game.",
+    "year":"2021"
+  },
+  {
+    "title": "Inception",
+    "imgsrc": "5.jpg",
+    "category": "Movies",
+    "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+    "year": "2010"
+  },
+  {
+    "title": "Inside Out",
+    "imgsrc": "6.jpg",
+    "category": "Movies",
+    "plot": "Eleven-year-old Riley moves to San Francisco, leaving behind her life in Minnesota. She and her five core emotions, Fear, Anger, Joy, Disgust and Sadness, struggle to cope with her new life.",
+    "year": "2015"
+  },
+  {
+    "title": "Jungle Cruise",
+    "imgsrc": "7.jpg",
+    "category": "Movies",
+    "plot": "Based on Disneyland's theme park ride where a small riverboat takes a group of travelers through a jungle filled with dangerous animals and reptiles but with a supernatural element.",
+    "year": "2021"
+  },
+  {
+    "title": "Passengers",
+    "imgsrc": "8.jpg",
+    "category": "Movies",
+    "plot": "A malfunction in a sleeping pod on a spacecraft traveling to a distant colony planet wakes one passenger 90 years early.",
+    "year": "2016"
+  },
+  {
+    "title": "Tenet",
+    "imgsrc": "9.jpg",
+    "category": "Movies",
+    "plot": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    "year": "2020"
+  },
+  {
+    "title": "Zodiac",
+    "imgsrc": "10.jpg",
+    "category": "Movies",
+    "plot": "Between 1968 and 1983, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.",
+    "year": "2007"
+  },
+  {
+    "title": "The Tomorrow War",
+    "imgsrc": "11.jpg",
+    "category": "Movies",
+    "plot": "A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
+    "year": "2021"
+  },
+  {
+    "title": "Servant",
+    "imgsrc": "12.jpg",
+    "category": "Shows",
+    "plot": "A Philadelphia couple is in mourning after an unspeakable tragedy creates a rift in their marriage and opens the door for a mysterious force to enter their home.",
+    "year": "2019",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Game of thrones",
+    "imgsrc": "13.jpg",
+    "category": "Shows",
+    "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+    "year": "2011",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Rick and Morty",
+    "imgsrc": "14.jpg",
+    "category": "Anime",
+    "plot": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
+    "year": "2013",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Fullmetal Alchemist",
+    "imgsrc": "15.jpg",
+    "category": "Anime",
+    "plot": "Edward and Alphonse Elric lose their bodies when they decide to perform human transmutation in order to retrieve their deceased mother. They must now find a way to restore their bodies back.",
+    "year": "2003",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Peaky Blinders",
+    "imgsrc": "16.jpg",
+    "category": "Shows",
+    "plot": "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
+    "year": "2013",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Defending Jacob",
+    "imgsrc": "17.jpeg",
+    "category": "Shows",
+    "plot": "After a shocking crime rocks a small town, an assistant district attorney finds himself torn between his sworn duty to uphold the law and his unconditional love for his son.",
+    "year": "2020",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Death Note",
+    "imgsrc": "18.jpg",
+    "category": "Anime",
+    "plot": "A high-school student discovers a supernatural notebook that grants its user the ability to kill.",
+    "year": "2006",
+    "season": "S1 E1"
+  },
+  {
+    "title": "The Witcher",
+    "imgsrc": "19.jpg",
+    "category": "Shows",
+    "plot": "The witcher Geralt, a mutated monster hunter, struggles to find his place in a world in which people often prove more wicked than beasts.",
+    "year": "2019",
+    "season": "S1 E1"
+  },
+  {
+    "title": "The Haunting of Hill House",
+    "imgsrc": "20.jpg",
+    "category": "Shows",
+    "plot": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it. animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
+    "year": "2018",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Attack on Titan",
+    "imgsrc": "21.jpg",
+    "category": "Anime",
+    "plot": "Fueled by the death of his mother at the hands of the titans, Eren Jaeger vows revenge against the species that have breached through the enclosing walls after 100 years of peace, threatening the remains of humanity.",
+    "year": "2013",
+    "season": "S1 E1"
+  },
+  {
+    "title": "Avatar the Last Air Bender",
+    "imgsrc": "22.jpg",
+    "category": "Anime",
+    "plot": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+    "year": "2005",
+    "season": "S1 E1"
+  }
+]
