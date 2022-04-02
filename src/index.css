@@ -74,19 +74,20 @@ header {
 }
 
 .accountProfile {
-  margin-left: 10px;
+  margin-left: 15px;
+  width: 20px;
 }
 
-.ndfHFb-c4YZDc-GSQQnc-LgbsSe{
+.ndfHFb-c4YZDc-GSQQnc-LgbsSe {
   display: none;
 }
 
-.content_info{
+.content_info {
   margin-top: 5px;
   padding-left: 25px;
 }
 
-.title_and_year{
+.title_and_year {
   display: flex;
 }
 
@@ -94,4 +95,44 @@ header {
   padding-left: 30px;
   padding-top: 15px;
   font-size: 20px;
+}
+
+.blue_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 0.9px solid #0f7fff;
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+  background-color: #0a0a0a;
+  color: #0f7fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue_btn:hover {
+  background-color: #0f7fff;
+  color: white;
+  transform: scale(0.95);
+  transition: ease-out;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.dropdown_menu{
+  border-radius: 7px;
+  position: absolute;
+  top: 69px;
+  z-index: 10;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+
+.auth_btn:hover{
+  background-color: #0f7fff !important;
+}
+.auth_btn{
+  border-color: #0f7fff !important;
 }

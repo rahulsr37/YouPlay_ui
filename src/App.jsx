@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "./Components/Header";
-// import BootstrapCarousel from "./Components/BootstrapCarousel";
 import Catalogue from "./Components/Catalogue";
 import catalogue from "./utilities/catalogue.json";
 import { Switch, Route } from "react-router-dom";
@@ -8,6 +7,8 @@ import Movies from "./Components/Movies";
 import Shows from "./Components/Shows";
 import Anime from "./Components/Anime";
 import MoviePlayer from "./Components/MoviePlayer";
+import Login from "./Components/Login";
+import Register from "./Components/Register";
 
 
 const App = () => {
@@ -45,6 +46,8 @@ const App = () => {
         <Route exact path="/shows"><Shows showsData={showsData} /></Route>
         <Route path="/anime"><Anime animeData={animeData} /></Route>
         <Route path="/movies/:name"><MoviePlayer/></Route>
+        <Route path="/login"><Login/></Route>
+        <Route path="/register"><Register/> </Route>
       </Switch>
       
     </>

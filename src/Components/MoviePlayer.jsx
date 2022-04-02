@@ -35,6 +35,7 @@ const MoviePlayer = () => {
           <h1>{movieData.title}</h1>
           <p className="text-primary year">{movieData.year}</p>
           <p className="text-secondary">{movieData.season}</p>
+          <button className="blue_btn" style={{height: "40px", width: "120px"}}>Favourite</button>
         </div>
         <p>{movieData.plot}</p>
       </div>
