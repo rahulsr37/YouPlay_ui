@@ -1,15 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Form, FormControl, Button, Dropdown } from "react-bootstrap";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Link } from "react-router-dom";
+import { UserContext } from "../App";
+import { signOut } from "firebase/auth";
+import { auth } from "../config/firebase";
 
 const Header = (props) => {
   const [searchText, setSearchText] = useState("");
   const [isExpand, setIsExpand] = useState(false);
 
+  const user = useContext(UserContext)
+
+  console.log(props.user);
+
   const dropDownHandler = () => {
     setIsExpand(!isExpand);
   };
+
+  const handleLogout = async () => {
+    await signOut(auth);
+    window.location.reload();
+  }
 
   return (
     <>
@@ -48,18 +60,25 @@ const Header = (props) => {
             </Button>
           </Form>
           <div className="d-flex flex-column">
-            <Link to="/login">
-          <AccountCircleIcon
+            <div className="d-flex gap-2 align-items-center">
+            <AccountCircleIcon
             className="accountProfile"
             fontSize="large"
             onClick={dropDownHandler}
-          />
-            </Link>
+           />
+           {props.user && <h6>{props.user.displayName}</h6> } 
+          
+            </div>
+          
           {isExpand && (
               <div className="dropdown_menu d-flex gap-1 px-3 flex-column">
                 <h6>My Account</h6>
                 <h6>Favourites</h6>
-                <h6>Login</h6>
+                {
+                  props.user ? <h6 onClick={handleLogout} style={{cursor:"pointer"}} >Logout</h6> : <Link to="/login"style={{textDecoration:"none"}} >
+                  <h6>Login</h6>
+                  </Link>
+                }
               </div>
 
           )}
