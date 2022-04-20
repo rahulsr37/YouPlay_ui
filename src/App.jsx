@@ -11,6 +11,7 @@ import Login from "./Components/Login";
 import Register from "./Components/Register";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./config/firebase";
+import Favourites from "./Components/Favourites";
 
 
 const UserContext = createContext(null); 
@@ -52,8 +53,8 @@ const App = () => {
   };
   return (
     <>
-      <Header onSearch={handleSearch} user={user}/>
       <UserContext.Provider value={user} >
+      <Header onSearch={handleSearch}/>
       <Switch>
         <Route exact path="/"><Catalogue catalogueData={catalogueData} /></Route>
         <Route exact path="/movies"><Movies moviesData={moviesData} /></Route>
@@ -62,6 +63,7 @@ const App = () => {
         <Route path="/movies/:name"><MoviePlayer/></Route>
         <Route path="/login"><Login/></Route>
         <Route path="/register"><Register/> </Route>
+        <Route path="/favourites"><Favourites/></Route>
       </Switch>
         </UserContext.Provider>
       

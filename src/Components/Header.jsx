@@ -11,8 +11,7 @@ const Header = (props) => {
   const [isExpand, setIsExpand] = useState(false);
 
   const user = useContext(UserContext)
-
-  console.log(props.user);
+  console.log(user);
 
   const dropDownHandler = () => {
     setIsExpand(!isExpand);
@@ -66,16 +65,17 @@ const Header = (props) => {
             fontSize="large"
             onClick={dropDownHandler}
            />
-           {props.user && <h6>{props.user.displayName}</h6> } 
+           {user && <h6 className="mt-2" onClick={dropDownHandler}  style={{cursor:"pointer"}} >{user.displayName}</h6> } 
           
             </div>
           
           {isExpand && (
               <div className="dropdown_menu d-flex gap-1 px-3 flex-column">
-                <h6>My Account</h6>
+                <Link to="/favourites" className="nav-link text-white">
                 <h6>Favourites</h6>
+                </Link>
                 {
-                  props.user ? <h6 onClick={handleLogout} style={{cursor:"pointer"}} >Logout</h6> : <Link to="/login"style={{textDecoration:"none"}} >
+                  user ? <h6 onClick={handleLogout}>Logout</h6> : <Link to="/login" className="nav-link">
                   <h6>Login</h6>
                   </Link>
                 }

@@ -5,6 +5,10 @@ import Card from "./Card";
 
 
 const Catalogue = (props) => {
+
+
+  
+
   return (
     <>
     <div style={{ height: "75vh", overflow: "hidden" }}>

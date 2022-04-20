@@ -43,6 +43,7 @@
     "title": "Inside Out",
     "imgsrc": "6.jpg",
     "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1sXJT8LAsWV0Jux6rfjgrO-jS9OM3xSeq/preview",
     "plot": "Eleven-year-old Riley moves to San Francisco, leaving behind her life in Minnesota. She and her five core emotions, Fear, Anger, Joy, Disgust and Sadness, struggle to cope with her new life.",
     "year": "2015"
   },
@@ -50,6 +51,7 @@
     "title": "Jungle Cruise",
     "imgsrc": "7.jpg",
     "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1swzNSRl3nLngvtMMxlFZltYJ4xvH5z4D/preview",
     "plot": "Based on Disneyland's theme park ride where a small riverboat takes a group of travelers through a jungle filled with dangerous animals and reptiles but with a supernatural element.",
     "year": "2021"
   },
@@ -57,6 +59,7 @@
     "title": "Passengers",
     "imgsrc": "8.jpg",
     "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1OC9C1yBMTedtLNec4ZehrkUeQqkGM-pE/preview",
     "plot": "A malfunction in a sleeping pod on a spacecraft traveling to a distant colony planet wakes one passenger 90 years early.",
     "year": "2016"
   },
@@ -64,6 +67,7 @@
     "title": "Tenet",
     "imgsrc": "9.jpg",
     "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1oG1rCdC1cY6627UunUn4HVYG7y_TMh4m/preview",
     "plot": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
     "year": "2020"
   },
@@ -71,6 +75,7 @@
     "title": "Zodiac",
     "imgsrc": "10.jpg",
     "category": "Movies",
+    "videosrc": "https://drive.google.com/file/d/1UH9oMMEkZqLhW0GHsjVfWa0S1_pcsGpp/preview",
     "plot": "Between 1968 and 1983, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.",
     "year": "2007"
   },
@@ -117,6 +122,7 @@
     "title": "Peaky Blinders",
     "imgsrc": "16.jpg",
     "category": "Shows",
+    "videosrc": "https://drive.google.com/file/d/1HVOO-MoYdff8Mr_1yUsjx4hFCYMYzFpR/preview",
     "plot": "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
     "year": "2013",
     "season": "S1 E1"
@@ -165,6 +171,7 @@
     "title": "Avatar the Last Air Bender",
     "imgsrc": "22.jpg",
     "category": "Anime",
+    "videosrc": "https://drive.google.com/file/d/1FG1iwteAN0LSZxkXXHulnaH1amUU-33e/preview",
     "plot": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
     "year": "2005",
     "season": "S1 E1"
