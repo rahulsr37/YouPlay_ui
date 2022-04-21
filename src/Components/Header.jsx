@@ -17,7 +17,7 @@ const Header = (props) => {
     setIsExpand(!isExpand);
     setTimeout(function(){
       setIsExpand(isExpand);
-    }, 3000);//wait 2 seconds
+    }, 3000);
    
   };
 
