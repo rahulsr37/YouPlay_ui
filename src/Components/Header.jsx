@@ -15,7 +15,13 @@ const Header = (props) => {
 
   const dropDownHandler = () => {
     setIsExpand(!isExpand);
+    setTimeout(function(){
+      setIsExpand(isExpand);
+    }, 3000);//wait 2 seconds
+   
   };
+
+
 
   const handleLogout = async () => {
     await signOut(auth);
